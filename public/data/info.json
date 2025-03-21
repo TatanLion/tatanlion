@@ -1,0 +1,390 @@
+{
+    "en": {
+        "navbar": [
+            {
+                "id": 1,
+                "name": "Home"
+            },
+            {
+                "id": 2,
+                "name": "About Me"
+            },
+            {
+                "id": 3,
+                "name": "Projects"
+            }
+        ],
+        "main": {
+            "title": "Hello!",
+            "name": "I’m Jonathan",
+            "description": "I’m a systems engineer with experience in web development, passionate about creating efficient applications and high-quality technological solutions."
+        },
+        "aboutMe": {
+            "title": "About Me",
+            "description": "I am a full-stack web developer with over 6 years of experience, specializing in creating intuitive, scalable, and high-performance digital solutions. I have expertise in both frontend and backend development, working with technologies such as JavaScript, TypeScript, Next.js, React, Node.js, and PHP. I build custom websites and web applications with a focus on clean code, security, and best development practices. My goal is to deliver optimized, maintainable, and user-friendly experiences while staying up to date with the latest industry trends."
+        },
+        "projects": {
+            "title": "Know my projects",
+            "list": [
+                {
+                    "id": 1,
+                    "img": "guitar-la",
+                    "title": "Guitar LA",
+                    "urlPage": "https://guitarla-ts-tatanlion.netlify.app/",
+                    "description": "Project simulating a shopping cart for an online guitar store. Its goal is to replicate the process of selecting and purchasing products, providing an experience similar to a real e-commerce platform.",
+                    "github": "https://github.com/TatanLion/guitar-la",
+                    "tecnhnologies": [
+                        "CSS",
+                        "React",
+                        "Vite",
+                        "TypeScript"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "img": "calorie-tracker",
+                    "title": "Calorie Tracker",
+                    "urlPage": "https://calorie-tracker-ts-tatanlion.netlify.app/",
+                    "description": "Project simulating an application to track calories consumed and burned by date. It includes interactive charts that display the data, making it easy to visualize the caloric balance over time.",
+                    "github": "https://github.com/TatanLion/calorie-tracker",
+                    "tecnhnologies": [
+                        "React",
+                        "Vite",
+                        "TypeScript",
+                        "NPM"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "img": "calculadora-propinas",
+                    "title": "Calculadora Propinas",
+                    "urlPage": "https://calculadora-propinas-ts-tatanlion.netlify.app/",
+                    "description": "Project simulating a restaurant menu application with tip calculation using useReducer. It allows users to select items and automatically calculate the tip based on the total bill.",
+                    "github": "https://github.com/TatanLion/calculadora-propinas",
+                    "tecnhnologies": [
+                        "React",
+                        "Vite",
+                        "TypeScript",
+                        "Tailwind"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "img": "img-lazy-loading",
+                    "title": "Img Lazy Loading",
+                    "urlPage": "https://img-lazy-loading-ts-tatanlion.netlify.app/",
+                    "description": "Project simulating an application connected to an API to fetch fox images, implementing lazy loading to optimize image loading and display.",
+                    "github": "https://github.com/TatanLion/img-lazy-loading",
+                    "tecnhnologies": [
+                        "React",
+                        "Next",
+                        "TypeScript",
+                        "Tailwind"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "img": "festival-music",
+                    "title": "Festival Music",
+                    "urlPage": "https://festivalmusica-jonathan.netlify.app/",
+                    "description": "Project showcasing an event management app that allows users to explore detailed information about the event and offers the possibility to scale the project to implement a ticket purchasing system. The application is designed to be easily extendable and enhance the user experience with future features.",
+                    "github": "https://github.com/TatanLion/festival-musica-gulp",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS",
+                        "Gulp",
+                        "NPM"
+                    ]
+                },
+                {
+                    "id": 6,
+                    "img": "batabit",
+                    "title": "BataBit",
+                    "urlPage": "https://batabitmobilefirst.netlify.app/",
+                    "description": "Mobile-first project replicating a cryptocurrency landing page, focusing on a responsive design and an optimized user experience for mobile devices.",
+                    "github": "https://github.com/TatanLion/mobile-first-batatabit",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "img": "pwa-admin-pacientes",
+                    "title": "PWA Admon Veterinary",
+                    "urlPage": "https://pwa-admin-pacientes.netlify.app/",
+                    "description": "PWA for veterinary patient management, implementing a full CRUD system to efficiently handle information and ensure accessibility from any device.",
+                    "github": "https://github.com/TatanLion/admin-pacientes-pwa",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "img": "busca-recetas",
+                    "title": "Recipe Finder",
+                    "urlPage": "https://busca-tus-recetas-tatanlion.netlify.app/",
+                    "description": "API that allows users to search for recipes based on dish type and save favorites with persistence in localStorage, enabling quick access to preferred recipes.",
+                    "github": "https://github.com/TatanLion/buscador-recetas-api",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS"
+                    ]
+                },
+                {
+                    "id": 9,
+                    "img": "crm-clientes-indexdb",
+                    "title": "CRM Clients IndexDB",
+                    "urlPage": "https://crm-clientes-indexdb-tatanlion.netlify.app/index.html",
+                    "description": "Project simulating a customer CRM using IndexedDB, implementing a full CRUD system for efficient local client management and administration.",
+                    "github": "https://github.com/TatanLion/crm-clientes-indexdb",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS"
+                    ]
+                },
+                {
+                    "id": 10,
+                    "img": "shopping-cart",
+                    "title": "Shopping Cart",
+                    "urlPage": "https://carrito-compras-tatan.netlify.app/",
+                    "description": "Project simulating a shopping cart for an online course store, allowing users to select, add, and manage courses before completing the purchase.",
+                    "github": "https://github.com/TatanLion/carrito-compras-js",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS"
+                    ]
+                },
+                {
+                    "id": 11,
+                    "img": "covid-api",
+                    "title": "Covid API",
+                    "urlPage": "https://covid19tatanapi.netlify.app/",
+                    "description": "Project that connects to an API to retrieve statistical information about COVID-19, allowing users to query data by date and visualize trends dynamically.",
+                    "github": "https://github.com/TatanLion/covid-api",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS",
+                        "Bootstrap"
+                    ]
+                },
+                {
+                    "id": 12,
+                    "img": "control-veterinaria",
+                    "title": "Appointment Control Veterinary",
+                    "urlPage": "https://citas-veterinaria-tatan.netlify.app/",
+                    "description": "Project simulating a pet patient management system for a veterinary clinic, implementing a full CRUD system for managing and administering patient records.",
+                    "github": "https://github.com/TatanLion/control-citas-veterinaria",
+                    "tecnhnologies": [
+                        "React",
+                        "Vite",
+                        "Tailwind"
+                    ]
+                },
+                {
+                    "id": 13,
+                    "img": "web-components",
+                    "title": "Web Components",
+                    "urlPage": "https://web-component-tatanlion.netlify.app/12-proyecto/",
+                    "description": "Code demonstrating the process, meaning, and implementation of Web Components in websites, enabling code reuse, optimized maintenance, and centralized control in a single instance.",
+                    "github": "https://github.com/TatanLion/Web-Components",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS"
+                    ]
+                },
+                {
+                    "id": 14,
+                    "img": "bienes-raices",
+                    "title": "Bienes Raices",
+                    "urlPage": "https://firstsitewebbienesraices-jonathan.netlify.app/",
+                    "description": "Real estate project simulating a page for browsing available properties, describing them, and allowing future purchases. Although the site is static in its presentation, a backend using MVC in PHP was implemented to fully manage property administration, enhancing the project's functionality and maintenance.",
+                    "github": "https://github.com/TatanLion/bienes-raices-backend/",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS",
+                        "Gulp",
+                        "PHP",
+                        "NPM",
+                        "MySQL"
+                    ]
+                },
+                {
+                    "id": 15,
+                    "img": "gif-app",
+                    "title": "Gif-App",
+                    "urlPage": "https://gif-app-tatanlion.netlify.app/",
+                    "description": "Project that connects to an API to search for GIFs, enabling dynamic searches and displaying results in real-time. It also includes automated testing with Jest to ensure proper functionality of the components.",
+                    "github": "https://github.com/TatanLion/Gif-App",
+                    "tecnhnologies": [
+                        "Vite",
+                        "Jest",
+                        "CSS"
+                    ]
+                },
+                {
+                    "id": 16,
+                    "img": "nasa-viewer",
+                    "title": "Nasa Viewer API",
+                    "urlPage": "https://nasa-viewer-api-tatanlion.netlify.app/galaxias",
+                    "description": "Project that connects to a NASA API to view images of galaxies and stars captured by the agency. The interface is designed using Styled Components, ensuring a modular and maintainable styling approach.",
+                    "github": "https://github.com/TatanLion/nasa-viewer-api",
+                    "tecnhnologies": [
+                        "Vite"
+                    ]
+                },
+                {
+                    "id": 17,
+                    "img": "maze-runner",
+                    "title": "Maze Runner Virtual",
+                    "urlPage": "https://maze-runner-virtual-tatan.netlify.app/",
+                    "description": "Project consisting of a maze game developed with vanilla JavaScript. It includes features such as life counting, duration timer, and multiple levels with increasing difficulty, providing an interactive and challenging experience.",
+                    "github": "https://github.com/TatanLion/Maze-Runner-Virtual",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS"
+                    ]
+                },
+                {
+                    "id": 18,
+                    "img": "store-shopi",
+                    "title": "Store Shopi",
+                    "urlPage": "https://shop-react-tatan.netlify.app/",
+                    "description": "Project simulating an online clothing store, allowing users to add products to favorites, add them to the cart, and simulate the checkout process within the app. It provides a complete e-commerce experience with dynamic product management.",
+                    "github": "https://github.com/TatanLion/shop-react",
+                    "tecnhnologies": [
+                        "Vite",
+                        "CSS",
+                        "Tailwind"
+                    ]
+                },
+                {
+                    "id": 19,
+                    "img": "100tifico",
+                    "title": "SPA - 100tifi.co",
+                    "urlPage": "https://spa-rick-and-mory-tatanlion.netlify.app/",
+                    "description": "SPA (Single Page Application) project built with Babel and Webpack, connecting to the Rick and Morty API to display detailed information about characters, features, episodes, names, and more. The application provides dynamic and efficient navigation without page reloads.",
+                    "github": "https://github.com/TatanLion/SPA-Rick-And-Morty",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS"
+                    ]
+                },
+                {
+                    "id": 20,
+                    "img": "blogearte",
+                    "title": "Blogearte",
+                    "urlPage": "https://blogear-react-router-dom.netlify.app/",
+                    "description": "Project using react-router-dom to create a basic blog with dynamic screen navigation and route protection. It implements a routing system that allows interactive and secure access to different sections of the blog.",
+                    "github": "https://github.com/TatanLion/Blogeate",
+                    "tecnhnologies": [
+                        "Vite",
+                        "CSS",
+                        "JS",
+                        "Tailwind"
+                    ]
+                },
+                {
+                    "id": 21,
+                    "img": "code",
+                    "title": "Backend Tienda Virtual",
+                    "urlPage": "https://github.com/TatanLion/backend-node",
+                    "description": "Backend built with Node and Express simulating an online store application. It implements user authentication and authorization, password hashing, email sending, JWT token handling, and schema validation using tools like Joi or Yup. All of this is connected to a PostgreSQL database hosted in Docker containers to ensure an isolated, scalable, and easily deployable environment.",
+                    "github": "https://github.com/TatanLion/backend-node",
+                    "tecnhnologies": [
+                        "Node",
+                        "Express",
+                        "NPM"
+                    ]
+                },
+                {
+                    "id": 22,
+                    "img": "api-store",
+                    "title": "Store Products API",
+                    "urlPage": "https://api-express-node.vercel.app/api/",
+                    "description": "Development of a REST API using Express and Node.js simulating product and category management. It allows performing full CRUD operations such as GET, POST, PATCH, and DELETE to manipulate product and category data. The API is deployed on Vercel, providing a scalable, efficient, and easily accessible environment.",
+                    "github": "https://github.com/TatanLion/API-Express-Node",
+                    "tecnhnologies": [
+                        "Express",
+                        "NPM"
+                    ]
+                },
+                {
+                    "id": 23,
+                    "img": "code",
+                    "title": "NPM - Screen Time Tracker",
+                    "urlPage": "https://www.npmjs.com/package/screen-time-track",
+                    "description": "Tracking the time users spend on each screen is essential nowadays. This library, created by me, simplifies the precise measurement of user time spent on each page, providing valuable metrics to enhance the user experience. It also allows downloading the collected data for further analysis and continuous optimization.",
+                    "github": "https://github.com/TatanLion/screen-time-tracker",
+                    "tecnhnologies": [
+                        "JS"
+                    ]
+                },
+                {
+                    "id": 24,
+                    "img": "code",
+                    "title": "Tools Media Gulp",
+                    "urlPage": "https://github.com/TatanLion/Tools_Gulp",
+                    "description": "To optimize the resources used in our projects, such as images, Lotties, GIFs, and audio files, we implement specialized tools available on NPM. These tools allow for compression, minimization, and improved performance of these files, ensuring faster load times and efficient resource usage.",
+                    "github": "https://github.com/TatanLion/Tools_Gulp",
+                    "tecnhnologies": [
+                        "JS",
+                        "NPM",
+                        "Gulp"
+                    ]
+                },
+                {
+                    "id": 25,
+                    "img": "code",
+                    "title": "Tools Img Gulp",
+                    "urlPage": "https://github.com/TatanLion/gulp-img",
+                    "description": "Implementation of an image optimization system using NPM tools executed with Gulp. This process allows compressing images and generating additional versions in WEBP and AVIF formats, significantly improving website performance.",
+                    "github": "https://github.com/TatanLion/gulp-img",
+                    "tecnhnologies": [
+                        "JS",
+                        "NPM",
+                        "Gulp"
+                    ]
+                },
+                {
+                    "id": 26,
+                    "img": "game-ball",
+                    "title": "Game Ball",
+                    "urlPage": "https://game-ball-tatanlion.netlify.app/",
+                    "description": "Ping Pong game developed with JavaScript featuring a life count and scoring system. It provides an interactive experience where players must keep the ball in play to accumulate points, while losing lives by repeatedly missing the ball. The project showcases the use of vanilla JavaScript to handle game logic, collision detection, and dynamic interface updates.",
+                    "github": "https://github.com/TatanLion/game-ball",
+                    "tecnhnologies": [
+                        "HTML",
+                        "CSS",
+                        "JS"
+                    ]
+                },
+                {
+                    "id": 27,
+                    "img": "control-gastos",
+                    "title": "Control Gastos",
+                    "urlPage": "https://control-gastos-tatanlion.netlify.app/",
+                    "description": "Application designed to track expenses based on a user-defined budget. It allows users to record each expense with details such as type of expense, amount, category, and date, providing a detailed overview of spending. It uses useReducer for efficient state management and useContext for sharing global data throughout the application, ensuring centralized control and easy maintenance.",
+                    "github": "https://github.com/TatanLion/control-gastos",
+                    "tecnhnologies": [
+                        "Vite",
+                        "Tailwind",
+                        "NPM"
+                    ]
+                }
+            ]
+        }
+    }
+}
