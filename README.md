@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Personal Portfolio - Jonathan Amaya (TatanL10n) 🚀
 
-## Getting Started
+## 👨‍💻 About Me
+I'm Jonathan Amaya, a systems engineer and full-stack web developer with over 6 years of experience. I specialize in building efficient, scalable, and high-performance digital solutions using technologies like:
 
-First, run the development server:
+- **Frontend:** Next.js, React, TypeScript, JavaScript  
+- **Backend:** Node.js, PHP  
+- **Best Practices:** Clean code, security, responsiveness, optimization  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I am passionate about creating user-friendly, maintainable applications while staying updated with the latest industry trends.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📖 About the Project
+This portfolio was built using:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** Next.js  
+- **Language:** TypeScript  
+- **Styling:** TailwindCSS  
+- **Deployment:** GitHub Pages  
 
-## Learn More
+The goal of this project is to provide a modern, responsive, and clean interface to showcase my projects, skills, and experience effectively.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📬 Contact
+If you want to reach out, feel free to contact me through my social media profiles linked in the portfolio.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [LinkedIn](https://www.linkedin.com/in/jonathan-amaya-mendieta/) 
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+This project is licensed under the MIT License.
