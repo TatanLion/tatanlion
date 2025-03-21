@@ -17,7 +17,7 @@ This portfolio was built using:
 - **Framework:** Next.js  
 - **Language:** TypeScript  
 - **Styling:** TailwindCSS  
-- **Deployment:** GitHub Pages  
+- **Deployment:** [TatanLion](https://tatanlion.netlify.app/)
 
 The goal of this project is to provide a modern, responsive, and clean interface to showcase my projects, skills, and experience effectively.
 
