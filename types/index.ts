@@ -3,6 +3,7 @@ export type NavBarProps = {
         id: number
         name: string
     }[]
+    onScrollToSection: (id: number) => void
 }
 
 export type MainProps = {

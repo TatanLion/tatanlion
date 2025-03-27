@@ -5,7 +5,7 @@ import Image from './Image';
 
 export default function Main({ main } : MainProps) {
     return (
-        <div className="flex flex-col-reverse md:items-center md:flex-row w-[90%] mx-auto mt-[3%]">
+        <div className="flex flex-col-reverse md:items-center md:flex-row w-[90%] mx-auto py-[5%]">
             <div className="w-full md:w-1/2 mx-auto">
                 <Image src='jonathan' customClass='w-full flex justify-center' />
             </div>
