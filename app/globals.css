@@ -6,7 +6,7 @@ html {
 
 body {
   @apply text-[#EEF0FF] bg-black antialiased w-full min-h-screen;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 /* Contenedor Principal */
@@ -19,3 +19,11 @@ body {
   @apply w-full py-12 px-4 sm:px-6 lg:px-8;
 }
 
+.gradient {
+  background: rgb(65, 209, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(65, 209, 255, 1) 0%,
+    rgba(146, 49, 190, 1) 100%
+  );
+}

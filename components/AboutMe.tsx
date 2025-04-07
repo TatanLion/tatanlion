@@ -5,12 +5,13 @@ import Image from "./Image";
 
 export default function AboutMe({ aboutMe }: AboutMeProps) {
 
-  const classLinks = `w-full md:w-1/2 mx-auto flex items-center gap-[3%] flex justify-center`;
+  const classLinks = `w-full md:w-1/2 mx-auto flex items-center gap-[3%] flex justify-center hover:scale-110 transition-all duration-300 ease-in-out`;
+
   return (
     <div className="py-[8%]">
       <div className=" w-[90%] mx-auto flex flex-col md:flex-row items-center justify-center">
-        <h2 className="w-full md:w-1/2 grid place-content-center text-[6rem] font-extrabold text-center">
-          {aboutMe.title.split(' ')[0]} <br /> <span className="text-[4.5rem]">{aboutMe.title.split(' ')[1]}</span>
+        <h2 className="w-full md:w-1/2 grid place-content-center text-[3.2rem] font-extrabold text-center leading-[0.9]">
+          {aboutMe.title.split(' ')[0]} <br /> <span className="text-[6.8rem]">{aboutMe.title.split(' ')[1]}</span>
         </h2>
         <p className="w-full md:w-1/2 text-center font-normal text-lg">{aboutMe.description}</p>
       </div>
