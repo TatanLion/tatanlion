@@ -6,7 +6,7 @@ import CardProject from "./CardProject";
 interface ProjectSectionProps {
   title: string;
   projects: ProjectsProps["projects"]["list"];
-  filterCondition: (project: any) => boolean;
+  filterCondition: (project: ProjectsProps["projects"]["list"][number]) => boolean;
   currentPage: number;
   onPageChange: (page: number) => void;
   projectsPerPage: number;
