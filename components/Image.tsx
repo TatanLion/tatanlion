@@ -10,8 +10,8 @@ export default function Image({ src, customClass = '' }: ImageProps) {
       <img 
         loading="lazy"
         src={`/img/${src}.png`}
-        height="500"
-        width="500"
+        height="800"
+        width="800"
         alt={src}
         className="max-w-full h-auto"
       />

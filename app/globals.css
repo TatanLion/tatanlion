@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  @apply text-[#EEF0FF] bg-black antialiased w-full min-h-screen;
+  @apply !text-[#dee7ff] bg-black antialiased w-full min-h-screen;
   font-family: "Noto Sans", sans-serif;
 }
 

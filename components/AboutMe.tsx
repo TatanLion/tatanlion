@@ -10,7 +10,7 @@ export default function AboutMe({ aboutMe }: AboutMeProps) {
   return (
     <div className="py-[8%]">
       <div className=" w-[90%] mx-auto flex flex-col md:flex-row items-center justify-center">
-        <h2 className="w-full md:w-1/2 grid place-content-center text-[3.2rem] font-extrabold text-center leading-[0.9]">
+        <h2 className="w-full mb-5 md:w-1/2 grid place-content-center text-[3.2rem] font-extrabold text-center leading-[0.9]">
           {aboutMe.title.split(' ')[0]} <br /> <span className="text-[6.8rem]">{aboutMe.title.split(' ')[1]}</span>
         </h2>
         <p className="w-full md:w-1/2 text-center font-normal text-lg">{aboutMe.description}</p>

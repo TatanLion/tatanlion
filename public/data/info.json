@@ -52,7 +52,8 @@
                         "Vite",
                         "TypeScript",
                         "NPM"
-                    ]
+                    ],
+                    "topStart": true
                 },
                 {
                     "id": 3,
@@ -121,7 +122,8 @@
                         "HTML",
                         "CSS",
                         "JS"
-                    ]
+                    ],
+                    "topStart": true
                 },
                 {
                     "id": 8,
@@ -217,7 +219,9 @@
                         "PHP",
                         "NPM",
                         "MySQL"
-                    ]
+                    ],
+                    "topStart": true
+
                 },
                 {
                     "id": 15,
@@ -307,7 +311,8 @@
                         "Node",
                         "Express",
                         "NPM"
-                    ]
+                    ],
+                    "topStart": true
                 },
                 {
                     "id": 22,
@@ -319,7 +324,8 @@
                     "tecnhnologies": [
                         "Express",
                         "NPM"
-                    ]
+                    ],
+                    "topStart": true
                 },
                 {
                     "id": 23,
@@ -330,7 +336,8 @@
                     "github": "https://github.com/TatanLion/screen-time-tracker",
                     "tecnhnologies": [
                         "JS"
-                    ]
+                    ],
+                    "topStart": true
                 },
                 {
                     "id": 24,
@@ -356,7 +363,8 @@
                         "JS",
                         "NPM",
                         "Gulp"
-                    ]
+                    ],
+                    "topStart": true
                 },
                 {
                     "id": 26,
@@ -382,7 +390,40 @@
                         "Vite",
                         "Tailwind",
                         "NPM"
-                    ]
+                    ],
+                    "topStart": true
+                },
+                {
+                    "id": 28,
+                    "img": "code",
+                    "title": "App Salon",
+                    "urlPage": "https://github.com/TatanLion/app-salon-mvc",
+                    "description": "Beauty salon project developed in PHP using the MVC pattern and Active Record model. The application enables user authentication, appointment scheduling, and confirmation email sending. It includes a main admin panel to efficiently manage scheduled appointments, streamlining business control and organization.",
+                    "github": "https://github.com/TatanLion/app-salon-mvc",
+                    "tecnhnologies": [
+                        "PHP",
+                        "HTML",
+                        "CSS",
+                        "JS",
+                        "MySQL",
+                        "Gulp"
+                    ],
+                    "topStart": true
+                },
+                {
+                    "id": 29,
+                    "img": "searcher-drinks-ai",
+                    "title": "Searcher Drinks AI",
+                    "urlPage": "https://searcher-drinks-ai-tatanlion.netlify.app/",
+                    "description": "Application built with Vite that enables users to search for drinks by connecting to an external API. It integrates an AI model via an in-app chat, offering recommendations or additional information about the drinks. The project uses TailwindCSS for styling, Zustand for global state management, and Zod for form and data validation—delivering a modern, smooth, and intelligent user experience.",
+                    "github": "https://github.com/TatanLion/searcher-drinks-ai",
+                    "tecnhnologies": [
+                        "React",
+                        "Vite",
+                        "TypeScript",
+                        "Tailwind"
+                    ],
+                    "topStart": true
                 }
             ]
         }

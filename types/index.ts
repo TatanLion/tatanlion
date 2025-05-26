@@ -32,6 +32,7 @@ export type ProjectsProps = {
         description: string;
         github: string;
         tecnhnologies: string[];
+        topStart?: boolean
       }[];
     };
   };

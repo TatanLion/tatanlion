@@ -13,10 +13,14 @@ export default function CardProject({ project }: CardProjectProps) {
         <div
             className="w-full md:w-[90%] h-auto mx-auto p-[2px] rounded-md mb-[4%] bg-gradient-to-b from-[#41d1ff] to-[#9231be] cursor-pointer hover:-translate-y-5 transition-transform duration-300 ease-in-out"
         >
-            <div className="bg-[#18181B] p-4 rounded-md w-full h-full">
+            <div className="bg-[#18181B] p-4 rounded-md w-full h-full relative">
+                {/* If its topStart */}
+                {project.topStart && (
+                    <Image src={'star'} customClass="w-[8%] absolute top-[1%] right-[1%]" />
+                )}
                 <h3 className="text-xl font-bold mb-[4%]">{project.title}</h3>
                 <div className="w-full h-auto rounded-lg overflow-hidden relative group">
-                    <Image src={project.img} customClass="w-[90%]" />
+                    <Image src={project.img} customClass="w-[90%] object-cover" />
                     <a href={project.urlPage} target='_blank' className="opacity-0 group-hover:opacity-100 transition-all ease duration-300 absolute top-0 left-0 w-full h-full bg-black/70 font-bold text-white text-2xl grid place-content-center ">
                         Go to page
                     </a>
