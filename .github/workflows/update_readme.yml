@@ -2,7 +2,7 @@ name: Actualizar Actividad Reciente
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *'  # Se ejecuta cada 6 horas
   workflow_dispatch:
 
 jobs:
@@ -15,14 +15,14 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Update README activity
-        uses: jamesgeorge007/github-activity-readme@master
+        uses: Readme-Workflows/recent-activity@v2.5.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          # Se cambió LIMIT_TO por MAX_LINES que es el input válido
-          MAX_LINES: 5
-          COMMIT_NAME: 'github-actions[bot]'
+          MAX_LINES: 10
+          COMMIT_MSG: 'Update recent activity in README'
+          COMMIT_USERNAME: 'github-actions[bot]'
           COMMIT_EMAIL: 'github-actions[bot]@users.noreply.github.com'
