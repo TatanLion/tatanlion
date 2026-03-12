@@ -14,8 +14,8 @@ jobs:
       contents: write
     
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Update README activity
+        uses: Readme-Workflows/recent-activity@v2
 
       - name: Update README activity
         uses: Readme-Workflows/recent-activity@v2.5.1
