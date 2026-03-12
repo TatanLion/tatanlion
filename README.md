@@ -20,6 +20,8 @@ Explore my portfolio:
 ## ⚙️ Recent Activity
 <!--START_SECTION:activity-->
 
+<!--END_SECTION:activity-->
+
 
 ## 📬 Contact
 Feel free to reach out via my social networks:
