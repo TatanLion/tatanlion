@@ -17,6 +17,10 @@ Explore my portfolio:
 
 ---
 
+# Recent Activity
+
+
+
 ## 📬 Contact
 Feel free to reach out via my social networks:
 
