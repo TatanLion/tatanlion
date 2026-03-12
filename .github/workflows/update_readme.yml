@@ -2,9 +2,8 @@ name: Actualizar Actividad Reciente
 
 on:
   schedule:
-    # Se ejecuta una vez al día (a la medianoche)
     - cron: '0 0 * * *'
-  workflow_dispatch: # Permite ejecución manual
+  workflow_dispatch:
 
 jobs:
   build:
@@ -20,5 +19,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          LIMIT_TO: 5
+          # Se cambió LIMIT_TO por MAX_LINES que es el input válido
+          MAX_LINES: 5
           COMMIT_NAME: 'github-actions[bot]'
