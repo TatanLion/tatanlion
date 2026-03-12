@@ -25,3 +25,4 @@ jobs:
           # Se cambió LIMIT_TO por MAX_LINES que es el input válido
           MAX_LINES: 5
           COMMIT_NAME: 'github-actions[bot]'
+          COMMIT_EMAIL: 'github-actions[bot]@users.noreply.github.com'
