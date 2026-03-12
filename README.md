@@ -18,7 +18,7 @@ Explore my portfolio:
 ---
 
 # Recent Activity
-<!--RECENT_ACTIVITY:start-->
+<!--START_SECTION:activity-->
 
 
 ## 📬 Contact
